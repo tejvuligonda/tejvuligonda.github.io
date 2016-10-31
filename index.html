@@ -37,24 +37,6 @@
 		</div>
 	</header>
 	
-	<!-- Contact -->
-	<section class="contactform clearfix">
-		<div class="container_16">
-			<h3>Contact Me</h3>
-			<p>
-			<br><em>Please fill out all fields.</em></p>
-			<form novalidate="novalidate" method="post" action="#" name="contact" class="grid_16">
-				<p class="grid_10"><textarea name="message" placeholder="Message" class="required"></textarea></p>
-				<p class="grid_6">
-					<input name="nom" placeholder="Name" class="required" type="text">
-					<input name="email" placeholder="Email Address" class="required" type="email">	
-					<input name="envoi" value="Send message" class="required" type="submit">
-					<span class="messageform"></span>
-				</p>
-			</form>
-		</div>
-	</section>
-	
 	<!-- Corps -->
 	<section role="main" class="container_16 clearfix">
 		<div class="grid_16">
@@ -62,8 +44,8 @@
 			<div class="grid_8 apropos">
 				<h3>About Me</h3>
 				<p>Hi there, thanks for stumbling upon my website.</p>
-				<p>I am a third-year undergraduate at UCI. Currently, I'm pursuing a double major Computer Science & Engineering and Business Economics along with a minor in Management. </p>
-				<p>I am interested in how technology can enable businesses to grow and succeed. I am also interested in application development with iOS, Android and the web. I am interested in full-stack development including, UI/UX Design, Rest API's, databases, servers, and a long list of other technical terms. If you would like to work with me, feel free to contact me. </p>
+				<p>I am a fourth-year undergraduate at UCI. Currently, I'm pursuing a double major Computer Science & Engineering and Business Economics along with a minor in Management. </p>
+				<p>I am interested in how technology can enable businesses to grow and succeed. I am also interested in application development with iOS, Android and the web. I am interested in full-stack development, Machine Learning and Embedded Systems. If you would like to work with me, feel free to contact me. </p>
 				<p>Listed below are some of the positions I've held in the past. Hope you enjoy!</p>
 			</div>
 			
@@ -74,7 +56,8 @@
 					<li data-skills="95">Python<span style="width: 95%;"></span></li>
 					<li data-skills="70">C++<span style="width: 70%;"></span></li>
 					<li data-skills="75">HTML/CSS<span style="width: 75%;"></span></li>
-					<li data-skills="60">Ruby<span style="width: 60%;"></span></li>
+					<li data-skills="60">Javascript<span style="width: 75%;"></span></li>
+					<li data-skills="60">Ruby<span style="width: 50%;"></span></li>
 					<li data-skills="50">Swift<span style="width: 50%;"></span></li>
 					<li data-skills="75">Java<span style="width: 75%;"></span></li>
 				</ul>
@@ -86,15 +69,18 @@
 				<ul>
 					<li>
 						<h4><strong>B.S., Computer Science and Engineering</strong> - University of California, Irvine</h4>
-						<span class="lieu">Irvine, California</span>
+						<span class="lieu">Irvine, California</span></br>
 						<span class="dates">September 2013 to June 2017</span>
-						<!--<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>-->
 					</li>
 					<li>
 						<h4><strong>B.A., Business Economics</strong> - University of California, Irvine</h4>	
-						<span class="lieu">Irvine, California</span>
+						<span class="lieu">Irvine, California</span></br>
 						<span class="dates">September 2013 to June 2017</span>
-						<!--<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>-->
+					</li>
+					<li>
+						<h4><strong>Minor in Management</strong> - University of California, Irvine</h4>	
+						<span class="lieu">Irvine, California</span></br>
+						<span class="dates">September 2013 to June 2017</span>
 					</li>
 				</ul>
 			</div>
@@ -103,23 +89,30 @@
 			<div class="grid_16 Experience">
 				<h3>Experience</h3>
 				<ul>
+                	<li>
+						<h4><strong>Advanced Development Intern </strong>Dell, Inc.</h4>
+						<span class="lieu">Irvine, California</span></br>
+						<span class="dates">June 2016 - Present</span>
+						<p>At my time at EMC (which was acquired by Dell), I worked on updating legacy code for a Performance Testing Automation Framework. The previous code was developed by a QA Engineer who no longer worked there. I worked with LAMP Stack, PHP and Perl scripting and helped decrease memory usage by 50%. I also developed scripts that automated the newest build of the product on the test sytem. I thorougly documented all of work because as an Advanced Development team member, I had to transition my work to the Release Engineering Team. Advanced Development works on new and upcoming products; the team pitches their ideas to the CTO who approves them and if they are accpted, a prototype of the product is built. When the prototype is finished, it is handed off to engineering to complete.</p>
+					</li>
+
 					<li>
 						<h4><strong>Software/QA Intern </strong>Broadcom Corporation</h4>
-						<span class="lieu">Irvine, California</span>
-						<span class="dates">January 2016 - Present</span>
-						<p>At my time at Broadcom, I did a lot of things. Some of them include working with Python scripts to automate Ethernet Controller Testing. I also implemented Bash scripts to install both Linux and Windows flavors of Server Operating Systems. Finally, I collaborated with the development team to create more efficient and secure programs.</p>
+						<span class="lieu">Irvine, California</span></br>
+						<span class="dates">January 2016 - June 2016</span>
+						<p>At my time at Broadcom, I worked with the Ethernet Controller Quality Assurance Team. Some of them include working with Python scripts to automate Ethernet Controller Testing.  I also implemented Bash scripts to install both Linux and Windows flavors of Server Operating Systems. Finally, I collaborated with the development team to create more efficient and secure programs. Some examples of security that I added were updating storing passwords in plaintext and applying a MD5 hash to those passwords.</p>
 					</li>
 					<li>
 						<h4><strong>Lab Automation and QA Test Intern</strong> QLogic Corporation</h4>
-						<span class="lieu">Irvine, California</span>
+						<span class="lieu">Irvine, California</span></br>
 						<span class="dates">June 2015 - October 2015</span>
-						<p>A quick summary of what I did last summer at QLogic is I developed a Lab Asset Management system using Python. I developed a program using Python and the SQLite library to query the SpiceWorks database (holding all of the info on devices in the lab) and automate tasks. Some of these tasks included inventory audits, equipment scheduling, infrastructure planning, and IP allocations. I also included search functionality as well as filtering by asset type, location and name.</p>
+						<p>A quick summary of what I did last summer at QLogic is I developed a Lab Asset Management system using Python, CGI scripting, and Django/Apache. I developed a program using Python and it's built-in SQLite library to automate tasks and query a database populated by a free-ware tool called SpiceWorks which held all of the information on devices in the lab. Some of the tasks that were automated included inventory audits, equipment scheduling, infrastructure planning, and IP allocations. I also included search functionality as well as filtering by asset type, location and name.</p>
 					</li>
 					<li>
 						<h4><strong>Software Engineering Intern</strong> QLogic Corporation</h4>
-						<span class="lieu">Aliso Viejo, California</span>
+						<span class="lieu">Aliso Viejo, California</span></br>
 						<span class="dates">June 2014 - September 2015</span>
-						<p>Two summers ago, I interned at the corporate branch of QLogic as a Software Engineering team. Some of the highlights of my work there include clarifying and documenting C++ code for an open-source project, testing different network protocols, and remodeling the lab.</p>
+						<p>Two summers ago, I interned at the corporate branch of QLogic on the Software Engineering team. Some of the highlights of my work there include developing C++ code for a testing management system, testing different network protocols, and remodeling the lab.</p>
 					</li>
 				</ul>
 			</div>
@@ -127,18 +120,48 @@
 			<div class="grid_16 education">
 				<h3>Projects</h3>
 				<ul>
+<!--
 					<li>
-						<h4><strong></strong><a href="http://student-council.ics.uci.edu">Information & Computer Science Student Council Website</a></h4>
-						<span class="lieu">January 2016 to Present</span>
+						<h4><strong></strong><a href="http://cse.eng.uci.edu">Computer Science & Engineering Website for UCI</a></h4>
+						<span class="lieu">June 2016 to September 2016</span>
 						<span class="dates"></span>
-						<p>As the Information & Computer Science Student Council (ICSSC) Webmaster, I am in charge of maintaing the main website for the council and also creating new miscellaneous websites for events that come up.</p>
+						<p>Professor Pai H Chou, the CSE Steering Committee Chair, was developing a website for the Computer Science & Engineering (CSE) students at UCI. I took the initiative to contact him about helping to develop the site and he gave me full responsibility to create the site. I worked with Drupal, a content management system to create a responsive site that includes a calendar, a forum, information about the major and even information on different resources that UCI has to offer to CSE students.</p>
+
+					</li>
+-->	
+					<li>
+						<h4><strong></strong><a href="http://cse.eng.uci.edu">Computer Science & Engineering Website for UCI</a></h4>
+						<span class="lieu">June 2016 to September 2016</span>
+						<span class="dates"></span>
+						<p>Professor Pai H Chou, the CSE Steering Committee Chair, was developing a website for the Computer Science & Engineering (CSE) students at UCI. I took the initiative to contact him about helping to develop the site and he gave me full responsibility to create the site. I worked with Drupal, a content management system to create a responsive site that includes a calendar, a forum, information about the major and even information on different resources that UCI has to offer to CSE students.</p>
+
+					</li>
+					<li>
+						<h4><strong></strong>Fluid Savings</h4>
+						<span class="lieu">March 2016 to June 2016</span>
+						<span class="dates"></span>
+                        <p>I was chosen to be an innovator at STEMbility, a non-profit STEM start-up that helps college students work on open-source projects to help them gain relevant experience. At my time as an innovator, I developed an application that read water meters to provide live usage for California residents. I worked with Swift, MySQL, PHP, Python, Raspberry Pi and Arduino.</p>
+					</li>
+					<li>
+						<h4><strong></strong><a href="http://student-council.ics.uci.edu">Information & Computer Science Student Council Webmaster</a></h4>
+						<span class="lieu">January 2016 to June 2016</span>
+						<span class="dates"></span>
+						<p>As the Information & Computer Science Student Council (ICSSC) Webmaster, I developed and maintained multiple websites including the main website for the council and also new miscellaneous websites for events that came up.</p>
+                        <ul class="none">
+                            <li class="none"><a href="http://startupcareerfair.tk">Start-Up Career Fair Website</a> </br>
+                            <a href="http://icsday.com">ICS Day Website</a></li>
+                        </ul>
+                            
 					</li>
 					<li>
 						<h4><strong></strong>The Revitalization of the Anteater Express iOS App</h4>
-						<span class="lieu">November 2015 to Present</span>
+						<span class="lieu">November 2015 to June 2016</span>
 						<span class="dates"></span>
-						<p>I joined the AppDev (Application Development) Club at UCI so that I could become more proficient with app development and help my community. The Anteater Express, our shuttle system, has a very outdated app (targeted for iOS 5 or 6). I took it upon my self to gather up a group of club members and approach the administration about updating the app. They were pleased that we took initiative and went for the idea. We are now in the process of re-vamping the iOS version of the app using Swift and targeting iOS 8.</p>
+						<p>I joined the AppDev (Application Development) Club at UCI so that I could become more proficient with app development and help my community. The Anteater Express, our shuttle system, has a very outdated app (targeted for iOS 5 or 6). I took it upon my self to gather up a group of club members and approach the administration about updating the app. They were pleased that we took initiative and went for the idea. We developed the iOS app in Swift targeted for iOS 8. We have completed the re-vamp of the iOS app and we are now working on the Android app.</p>
 					</li>
+
+
+<!--
 					<li>
 						<h4><strong></strong><a href="http://irvineisc.club">Indian Subcontintental Club Website</a></h4>
 						<span class="lieu">June 2015 to Present</span>
@@ -146,6 +169,8 @@
 						<p>As one of the Technology Directors for the Indian SubContintental Club (ISC) at UCI, I helped develop and maintain a state-of-the-art and up to date website using HTML, JavaScript, and CSS frameworks including Bootstrap. </p>
 
 					</li>
+-->
+                    
 				</ul>
 			</div>
 		
