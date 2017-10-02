@@ -7,3 +7,4 @@ if ( lspci | grep 'VirtualBox' >/dev/null );
 fi
 mkdir -p ~/Developer/public ~/Developer/private ~/Developer/test
 git clone https://github.com/tejvuligonda/OS-Starter-Packs.git ~/Developer/public/OS-Starter-Packs
+cd ~/Developer/public/OS-Starter-Packs
